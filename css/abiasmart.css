@@ -82,8 +82,8 @@
         /* Hero Section */
         .hero {
             height: 100vh;
-            background: linear-gradient(rgba(42, 12, 224, 0.7), rgba(40, 12, 224, 0.7)), 
-                        url('img/Abia_state_tower.jpg') center/cover no-repeat;
+            width: fi;
+                        
         }
 
         .gray{
