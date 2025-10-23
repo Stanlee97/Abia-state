@@ -8,16 +8,22 @@
     <script src="/c:/Users/hp/Documents/Abia state/abiasmart.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="css/abiasmart.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/@hellouxpavel/cssanimation@latest/dist/cssanimation.min.css"
+    rel="stylesheet"
+    />
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Marvel">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Hero Section -->
-    <section class="hero" style="background: linear-gradient(rgba(42, 12, 224, 0.7), rgba(40, 12, 224, 0.7)), url('/img/Abia_state_tower.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center center;">
+    <section class="hero" style="background: linear-gradient(rgba(42, 12, 224, 0.7), rgba(40, 12, 224, 0.7)), url('img/Abia_state_tower.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center center;">
         <div class="gray">
             <div class="hero-content">
-                <div class="tag">
+                <div class="tag cssanimation ca__fx-trackExpand" id="hero-animation">
                     <h1>Abia Smart</h1>
                 </div>
                 <p>Access world-class learning resources and manage your academic journey with our integrated educational platform.</p>
@@ -61,6 +67,26 @@
         </div>
     </section>
 
+     <!-- About Section -->
+    <section class="features" id="about">
+        <div class="section-title text-center">
+            <div >
+                <h2 class="about-text" >About Abia Smart</h2>
+                <div class="features-grid justify-content-around" >
+                    <h4 class="">Abia Smart is an innovative educational platform developed to revolutionize the learning experience in Abia State. <span class="phrase">Our mission is to provide students, educators, and institutions with cutting-edge tools and resources that foster academic excellence and lifelong learning.
+                    </span>
+                    
+                <br>With a focus on accessibility, interactivity, and comprehensive management solutions, Abia Smart aims to bridge the gap between traditional education and modern technology.</h4>
+                <div class="school-location">
+                    <img class="school-image" src="img/Abia smart school img-1.jpeg" alt="About Abia Smart">
+                </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+
     <!-- Footer -->
     <footer>
         <div class="footer-content">
@@ -74,7 +100,10 @@
         </div>
     </footer>
 
-    <script>
+    
+</body>
+
+<script>
         // Simple scroll effect for navigation
         document.addEventListener('DOMContentLoaded', function() {
             const header = document.querySelector('header');
@@ -102,5 +131,4 @@
             });
         });
     </script>
-</body>
 </html>
